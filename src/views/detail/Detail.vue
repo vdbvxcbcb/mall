@@ -97,7 +97,7 @@
         let length = this.titleTopY.length;
         for (let i = 0; i < length - 1; i++) {
           if (this.currentIndex !== i &&
-          (positionY >= this.titleTopY[i] && positionY < this.titleTopY[i + 1])) {
+          (positionY >= this.titleTopY[i] - 44 && positionY < this.titleTopY[i + 1])) {
             this.currentIndex = i;
             this.$refs.nav.currentIndex = this.currentIndex;
           }
