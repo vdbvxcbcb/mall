@@ -17,7 +17,7 @@
 * [VSCode](https://code.visualstudio.com/)
 
 ## 接口
-src/network/request.js
+[项目接口](https://github.com/vdbvxcbcb/mall/blob/main/src/network/request.js)变化，项目可能无法正常启动
 
 ## 启动
 
